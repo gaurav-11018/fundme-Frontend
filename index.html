@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <title>Fund Me App</title>
-</head>
-<body>
-    Whats GOod?
-    <script>
-        if (typeof window.ethereum !== "undefined"){
-            console.log("I see a metamask!!")
-        } else{
-            console.log("No metamask, pls download the extension")
-        }
+  </head>
 
-        
-    </script>
-</body>
+  <body>
+    <button id="connectButton">Connect</button>
+    <button id="balanceButton">getBalance</button>
+    <button id="withdrawButton">Withdraw</button>
+ 
+    <label for="fund">ETH Amount</label>
+    <input id="ethAmount" placeholder="0.1" />
+    <button type="button" id="fundButton" > Fund </button>
+  </body>
+
+  <script src="./index.js" type="module"></script>
 </html>
