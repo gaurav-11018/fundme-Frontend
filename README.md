@@ -1,5 +1,4 @@
 # html-fundme
-designing a simple frontend to my fundme contract
+Designed a simple frontend to my fundme contract
 
-
-1.Intial setup is done as of now
+Basic html and javascript code(mainly ether.js)
